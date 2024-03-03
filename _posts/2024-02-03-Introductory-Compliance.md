@@ -1,6 +1,6 @@
 ---
 title: Cybersecurity is Important
-author: Nirmal Chakraborty
+author: <1>
 date: 2024-02-03 17:55:00 +0530
 categories: [Security, Blog]
 tags: [Compliance, Testing]

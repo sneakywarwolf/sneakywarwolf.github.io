@@ -1,6 +1,6 @@
 ---
 title: Response Manipulation
-author: Nirmal Chakraborty
+author: <1>
 date: 2024-03-03 16:35:00 +0530
 categories: [Security, VAPT]
 tags: [Testing, Response-Manipulation]
