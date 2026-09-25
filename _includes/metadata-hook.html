@@ -3,7 +3,8 @@
   (function () {
     var p = null;
     try { p = localStorage.getItem('palette'); } catch (e) {}
-    if (p === 'obsidian' || p === 'quantum') document.documentElement.setAttribute('data-palette', p);
+    if (p !== 'classic' && p !== 'quantum') p = 'obsidian'; /* default: Obsidian Turquoise */
+    if (p !== 'classic') document.documentElement.setAttribute('data-palette', p);
   })();
 </script>
 <script defer>
