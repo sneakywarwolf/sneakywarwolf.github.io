@@ -1,0 +1,40 @@
+<!-- Colour palette: applied before first paint to avoid a flash; choices are added to the light/dark menu in the sidebar -->
+<script>
+  (function () {
+    var p = null;
+    try { p = localStorage.getItem('palette'); } catch (e) {}
+    if (p === 'obsidian' || p === 'quantum') document.documentElement.setAttribute('data-palette', p);
+  })();
+</script>
+<script defer>
+  document.addEventListener('DOMContentLoaded', function () {
+    var menu = document.querySelector('#mode-toggle + .dropdown-menu');
+    if (!menu) return;
+    var root = document.documentElement;
+    var palettes = [
+      ['classic', 'Classic', '#2ee6a8'],
+      ['obsidian', 'Obsidian Turquoise', '#40e0d0'],
+      ['quantum', 'Quantum Emerald', '#50c878']
+    ];
+    function current() { return root.getAttribute('data-palette') || 'classic'; }
+    var hr = document.createElement('li');
+    hr.innerHTML = '<hr class="dropdown-divider">';
+    menu.appendChild(hr);
+    var items = palettes.map(function (p) {
+      var li = document.createElement('li');
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'dropdown-item d-flex align-items-center palette-item';
+      b.innerHTML = '<span class="palette-swatch" style="background:' + p[2] + '"></span>' + p[1];
+      b.addEventListener('click', function () {
+        if (p[0] === 'classic') root.removeAttribute('data-palette'); else root.setAttribute('data-palette', p[0]);
+        try { localStorage.setItem('palette', p[0]); } catch (e) {}
+        mark();
+      });
+      li.appendChild(b); menu.appendChild(li);
+      return [p[0], b];
+    });
+    function mark() { items.forEach(function (i) { i[1].classList.toggle('active', i[0] === current()); }); }
+    mark();
+  });
+</script>
