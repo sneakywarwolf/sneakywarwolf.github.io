@@ -121,6 +121,14 @@ layout: default
                     {% endfor %}
                   </span>
                 {% endif %}
+
+                <!-- tags (plain chips: the whole card is already a link) -->
+                {% if post.tags.size > 0 %}
+                  <div class="card-tags mt-2">
+                    {% for tag in post.tags limit: 5 %}<span>{{ tag }}</span>{% endfor %}
+                    {% if post.tags.size > 5 %}<span>+{{ post.tags.size | minus: 5 }}</span>{% endif %}
+                  </div>
+                {% endif %}
               </div>
 
               {% if post.pin %}

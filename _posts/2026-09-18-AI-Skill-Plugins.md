@@ -1,7 +1,7 @@
 ---
 
 title: AI Skills, Plugins, and the Agent Stack- How the Right Combination Gets Work Done
-author: Nirmal Chakraborty
+author: nirmal
 date: 2026-09-18 00:15:00 +0530
 categories: [Technology, AI]
 tags: [AI, Agentic-AI, Skills, Plugins, MCP, Subagents, Automation]

@@ -1,7 +1,7 @@
 ---
 
 title: The Environmental Consequences of the AI Boom
-author: Nirmal Chakraborty
+author: nirmal
 date: 2026-09-20 11:30:00 +0530
 categories: [Technology, AI, Sustainability]
 tags: [AI, Sustainability, Energy, Data-Centers, Water, Carbon, Semiconductors]
