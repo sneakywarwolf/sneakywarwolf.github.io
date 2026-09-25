@@ -1,6 +1,6 @@
 ---
 title: Avengers Blog Writeup-TryHackMe
-author: <1>
+author: nirmal
 date: 2021-05-30 16:35:00 +0530
 categories: [VAPT, Tryhackme]
 tags: [SQL Injection]

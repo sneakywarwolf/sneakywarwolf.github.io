@@ -1,11 +1,10 @@
 ---
 title: Cybersecurity is Important
-author: <1>
+author: nirmal
 date: 2024-02-03 17:55:00 +0530
 categories: [Security, Blog]
 tags: [Compliance, Testing]
 pin: true
-img_path: '/posts/20240203'
 ---
 # The Importance of Security Testing and Compliance
 

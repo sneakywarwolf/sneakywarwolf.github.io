@@ -1,11 +1,10 @@
 ---
 title: Response Manipulation
-author: <1>
+author: nirmal
 date: 2024-03-03 16:35:00 +0530
 categories: [Security, VAPT]
 tags: [Testing, Response-Manipulation]
 pin: false
-img_path: ''
 ---
 # Response Manipulation: Understanding, Prevention, and Security Measures
 
