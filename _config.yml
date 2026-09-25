@@ -46,7 +46,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # paste ONLY the content="..." value from Search Console's HTML-tag method
+  google: 7tECqhh1jsxMjdxr4 # Search Console HTML-tag content value
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -119,7 +119,7 @@ actions:
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -132,7 +132,7 @@ comments:
     repo: sneakywarwolf/sneakywarwolf.github.io
     repo_id: R_kgDOLa8_PQ
     category: Announcements # must exist in the repo's Discussions
-    category_id: # REQUIRED: copy from https://giscus.app after enabling Discussions
+    category_id: DIC_kwDOLa8_Pc4DGZM-
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
