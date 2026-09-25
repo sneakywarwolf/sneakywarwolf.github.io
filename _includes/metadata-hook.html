@@ -5,6 +5,13 @@
     try { p = localStorage.getItem('palette'); } catch (e) {}
     if (p !== 'classic' && p !== 'quantum') p = 'obsidian'; /* default: Obsidian Turquoise */
     if (p !== 'classic') document.documentElement.setAttribute('data-palette', p);
+    /* first visit only: start in dark mode; later Light/System choices are respected */
+    try {
+      if (!localStorage.getItem('theme') && !localStorage.getItem('theme-defaulted') && window.Theme) {
+        Theme.update(Theme.Mode.DARK);
+        localStorage.setItem('theme-defaulted', '1');
+      }
+    } catch (e) {}
   })();
 </script>
 <script defer>
