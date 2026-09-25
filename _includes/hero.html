@@ -12,8 +12,10 @@
   <div class="hero-actions">
     <a class="btn-hero primary" href="{{ '/projects/' | relative_url }}"><i class="fas fa-code-branch"></i> Projects</a>
     <a class="btn-hero" href="#latest-research"><i class="fas fa-flask"></i> Research</a>
+    {% assign resume = site.static_files | where: 'path', '/assets/resume/Nirmal-Chakraborty_Resume.pdf' | first %}
+    {% if resume %}<a class="btn-hero" href="{{ resume.path | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Résumé</a>{% endif %}
     <a class="btn-hero" href="https://github.com/{{ site.github.username }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-    <a class="btn-hero" href="https://www.linkedin.com/in/sneakywarwolf/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a class="btn-hero" href="https://www.linkedin.com/in/nirmalchak/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
   </div>
 </section>
 

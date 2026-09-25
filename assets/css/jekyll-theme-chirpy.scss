@@ -1,7 +1,19 @@
 ---
 ---
 
-@import 'main';
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
 
 /* ---------- custom theme ---------- */
 :root {
@@ -20,9 +32,9 @@
   --hero-grad: linear-gradient(135deg, rgba(46,230,168,.10), rgba(88,140,255,.07));
   --link-color: #5fd4ff;
 }
-html[data-mode='dark'] { @include dark-custom; }
+:root[data-bs-theme='dark'] { @include dark-custom; }
 @media (prefers-color-scheme: dark) {
-  html:not([data-mode]) { @include dark-custom; }
+  :root:not([data-bs-theme]) { @include dark-custom; }
 }
 
 /* sidebar accent */
@@ -59,7 +71,7 @@ html[data-mode='dark'] { @include dark-custom; }
   &:hover { transform: translateY(-2px); border-color: var(--accent) !important; text-decoration: none; }
   &.primary { background: var(--accent); color: #fff !important; border-color: var(--accent) !important; }
 }
-html[data-mode='dark'] .btn-hero.primary { color: #0b0b0d !important; }
+:root[data-bs-theme='dark'] .btn-hero.primary { color: #0b0b0d !important; }
 
 .section-title {
   font-size: 1.25rem; font-weight: 700; margin: 2rem 0 1rem;

@@ -5,7 +5,11 @@ date: 2021-05-30 16:35:00 +0530
 categories: [VAPT, Tryhackme]
 tags: [SQL Injection]
 pin: false
-img_path: /assets/4blogs/avengers/
+media_subpath: /assets/4blogs/avengers/
+description: "Walkthrough of the TryHackMe Avengers Blog room: cookie and HTTP header inspection, FTP enumeration, directory brute-forcing, SQL injection login bypass and command injection."
+image:
+  path: https://sneakywarwolf.github.io/assets/img/posts/tryhackme-avengers.jpg
+  alt: TryHackMe Avengers Blog
 ---
 
 ![Intro](1.png){: width="850" height="200"}

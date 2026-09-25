@@ -31,7 +31,7 @@ Security analyst focused on offensive security: web, API, mobile and network pen
 ## Contact
 
 - GitHub: [sneakywarwolf](https://github.com/sneakywarwolf)
-- LinkedIn: [sneakywarwolf](https://www.linkedin.com/in/sneakywarwolf/)
+- LinkedIn: [nirmalchak](https://www.linkedin.com/in/nirmalchak/)
 - Email: <sneakypentester@gmail.com>
 
 <details markdown="1">
