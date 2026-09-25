@@ -8,9 +8,10 @@ tags: [AI, Token-Optimization, Context-Engineering, Headroom, Claude-Mem, Claude
 pin: false
 description: How context compression, progressive disclosure, persistent memory, subagents, dynamic tool loading, and efficient context design reduce unnecessary AI computation and context consumption.
 image:
-path: /assets/img/posts/token-efficient-ai.png
-alt: Token Efficient AI and Context Engineering
------------------------------------------------
+     path: /assets/img/posts/token-efficient-ai.png
+     alt: Token Efficient AI and Context Engineering
+
+---
 
 ## Key Takeaways
 

@@ -8,9 +8,10 @@ tags: [AI, Sustainability, Energy, Data-Centers, Water, Carbon, Semiconductors]
 pin: false
 description: The environmental consequences of rapidly growing AI workloads, including electricity demand, water consumption, carbon emissions, hardware manufacturing, and the efficiency-versus-scale paradox.
 image:
-path: /assets/img/posts/ai-environmental-impact.jpg
-alt: Environmental Consequences of AI Growth
---------------------------------------------
+        path: /assets/img/posts/ai-environmental-impact.png
+        alt: Environmental Consequences of AI Growth
+
+---
 
 ## Key Takeaways
 

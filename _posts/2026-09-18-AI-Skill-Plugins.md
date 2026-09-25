@@ -8,9 +8,9 @@ tags: [AI, Agentic-AI, Skills, Plugins, MCP, Subagents, Automation]
 pin: false
 description: How AI skills, plugins, MCP, subagents, hooks, memory, and project instructions work together to turn a general-purpose model into a practical execution system.
 image:
-path: /assets/img/posts/ai-agent.png
-alt: AI Skills and Plugin Agent Stack
--------------------------------------
+        path: /assets/img/posts/ai-agent.png
+        alt: AI Skills and Plugin Agent Stack
+---
 
 ## Key Takeaways
 

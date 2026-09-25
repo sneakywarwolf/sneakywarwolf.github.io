@@ -8,9 +8,9 @@ tags: [AI, Software-Testing, VAPT, Automation, Agentic-AI, Quality-Engineering]
 pin: false
 description: How AI is moving from test assistance toward agentic testing, changing test generation, automation, defect analysis, security testing, and the role of the tester.
 image:
-path: /assets/img/posts/ai-impact-testing.png
-alt: AI Impact on Software Testing and VAPT
--------------------------------------------
+    path: /assets/img/posts/ai-impact-testing.png
+    alt: AI Impact on Software Testing and VAPT
+---
 
 ## Key Takeaways
 
