@@ -1,11 +1,14 @@
 ---
 title: Cybersecurity is Important
-author: <1>
+author: nirmal
 date: 2024-02-03 17:55:00 +0530
 categories: [Security, Blog]
 tags: [Compliance, Testing]
 pin: true
-img_path: '/posts/20240203'
+description: "Why security testing and compliance matter: types of security testing, PCI DSS and PCI SSF, and the OWASP Top 10."
+image:
+  path: /assets/img/posts/security-testing-compliance.jpg
+  alt: Security testing and compliance
 ---
 # The Importance of Security Testing and Compliance
 

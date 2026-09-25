@@ -1,0 +1,14 @@
+<div class="project-grid">
+  {% for p in site.data.projects %}
+    {% if include.featured and p.featured != true %}{% continue %}{% endif %}
+    <a class="project-card" href="https://github.com/{{ p.repo }}" target="_blank" rel="noopener">
+      <div class="project-head">
+        <i class="{{ p.icon }}"></i>
+        <span class="project-name">{{ p.name }}</span>
+        <i class="fas fa-arrow-up-right-from-square project-ext"></i>
+      </div>
+      <p class="project-summary">{{ p.summary }}</p>
+      <div class="project-tags">{% for t in p.tags %}<span>{{ t }}</span>{% endfor %}</div>
+    </a>
+  {% endfor %}
+</div>

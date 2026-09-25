@@ -1,0 +1,23 @@
+<section class="hero">
+  <p class="hero-kicker"><span class="prompt">$</span> whoami</p>
+  <h1 class="hero-name">{{ site.social.name }}</h1>
+  <p class="hero-role">Security Analyst &middot; Penetration Tester</p>
+  <p class="hero-lead">
+    I break web apps, APIs, mobile apps and networks so they can be fixed before someone else finds the gap.
+    Below are the tools I've built and the research I've written up.
+  </p>
+  <div class="hero-chips">
+    {% for s in site.data.skills %}<span class="chip">{{ s }}</span>{% endfor %}
+  </div>
+  <div class="hero-actions">
+    <a class="btn-hero primary" href="{{ '/projects/' | relative_url }}"><i class="fas fa-code-branch"></i> Projects</a>
+    <a class="btn-hero" href="#latest-research"><i class="fas fa-flask"></i> Research</a>
+    {% assign resume = site.static_files | where: 'path', '/assets/resume/Nirmal-Chakraborty_Resume.pdf' | first %}
+    {% if resume %}<a class="btn-hero" href="{{ resume.path | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> Résumé</a>{% endif %}
+    <a class="btn-hero" href="https://github.com/{{ site.github.username }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+    <a class="btn-hero" href="https://www.linkedin.com/in/nirmalchak/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  </div>
+</section>
+
+<h2 class="section-title"><i class="fas fa-toolbox"></i> Featured Projects</h2>
+{% include project-cards.html featured=true %}

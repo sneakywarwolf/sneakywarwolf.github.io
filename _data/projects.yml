@@ -1,0 +1,19 @@
+# Source: README of each public repository (fetched 2026-09-25). Edit freely.
+- name: ReconCraft
+  repo: sneakywarwolf/ReconCraft
+  icon: fas fa-satellite-dish
+  summary: Modular reconnaissance and vulnerability-scanning framework with a PyQt5 GUI. Plugin-based tool integration, parallel scanning, custom scan profiles, dashboards and an interactive CVSS v3.1 calculator.
+  tags: [Python, PyQt5, Recon, Linux]
+  featured: true
+- name: PinSlayer
+  repo: sneakywarwolf/PinSlayer
+  icon: fas fa-unlock-alt
+  summary: Frida-based SSL/TLS pinning bypass framework for Android. Hooks TrustManager, HostnameVerifier and related trust mechanisms at runtime to enable HTTPS interception without repackaging the APK.
+  tags: [Frida, Android, Mobile Pentest]
+  featured: true
+- name: SFAC
+  repo: sneakywarwolf/SFAC
+  icon: fas fa-sitemap
+  summary: Subdomain Finder & Accessibility Checker. Enumerates subdomains via Sublist3r, checks which are live, captures headless screenshots and exports results to CSV.
+  tags: [Python, Recon, Subdomains]
+  featured: true

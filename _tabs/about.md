@@ -1,49 +1,45 @@
 ---
 title: About
 icon: fas fa-info-circle
-order: 4
+order: 2
 ---
 
+## Security Analyst
 
-# Security Analyst 👨‍💻🔒
+Security analyst focused on offensive security: web, API, mobile and network penetration testing, and helping development teams remediate what the testing finds.
 
-## Introduction
-👋 Hello! I'm a security analyst with a passion for keeping digital environments secure. I have a strong background in cybersecurity principles and hands-on experience in protecting systems, networks, and data from potential threats. I am constantly striving to learn and improve my skills.
+## Certifications
 
-##  Certifications
- 📜DIAT - Information Assurance Proffesional <br>
- 📜INE - ewptxv2 <br>
- 📜ISC - (CC)2 <br>
+- DIAT — Information Assurance Professional
+- INE — eWPTXv2 (Web Application Penetration Tester eXtreme)
+- ISC2 — Certified in Cybersecurity (CC)
 
 ## Expertise
-💼 In my role as a security analyst, I specialize in:
-- Network security and vulnerability assessment
-- Web application security testing
-- Penetration testing
-- Mobile Application Pentest
-- Mutiple Onsite VAPT projects
 
-## Projects 🚀
-🔍 I have worked on various projects that involve:
-- Conducting penetration tests to identify vulnerabilities
-- Performing security assessments and audits
-- Developing and implementing security protocols and measures
-- Providing Solutions to dedicated teams of developers during audits.
+- Web application and API security testing
+- Network vulnerability assessment and penetration testing
+- Mobile application penetration testing
+- On-site VAPT engagements
 
-Let's work together to make the digital world a safer place! 🌐🔒
+## Project Work
 
+- Penetration tests to identify and validate vulnerabilities
+- Security assessments and audits
+- Designing and implementing security controls
+- Remediation guidance for development teams during audits
 
-<h2> <details>
-    <a href="https://git.io/streak-stats"><p style="margin:0px 0px 20px;"><img src="https://streak-stats.demolab.com?user=Sneakywarwolf&theme=transparent&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&card_width=500" alt="GitHub Streak" /></p>
-    <p align="left">
-    <a href="https://github.com/sneakywarwolf">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sneakywarwolf&theme=transparent" alt="summary" />
-  </a>
-  <a href="https://github.com/sneakywarwolf">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sneakywarwolf&theme=transparent" alt="stats summary" />
-  </a>
-  <p align="left">
-  <a href="https://github.com/sneakywarwolf">
-    <img src="https://komarev.com/ghpvc/?username=sneakywarwolf&color=red&style=flat)" alt="visitor count"/>
-  </a>
-    </p>
+## Contact
+
+- GitHub: [sneakywarwolf](https://github.com/sneakywarwolf)
+- LinkedIn: [nirmalchak](https://www.linkedin.com/in/nirmalchak/)
+- Email: <sneakypentester@gmail.com>
+
+<details markdown="1">
+<summary>GitHub stats</summary>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Sneakywarwolf&theme=transparent&hide_border=true&mode=weekly&card_width=500)](https://git.io/streak-stats)
+
+[![Profile summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sneakywarwolf&theme=transparent)](https://github.com/sneakywarwolf)
+[![Stats summary](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sneakywarwolf&theme=transparent)](https://github.com/sneakywarwolf)
+
+</details>
