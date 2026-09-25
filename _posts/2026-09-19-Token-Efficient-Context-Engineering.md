@@ -1,7 +1,7 @@
 ---
 
 title: Token-Efficient AI- Headroom, Claude-Mem, and Context Engineering
-author: Nirmal Chakraborty
+author: nirmal
 date: 2026-09-19 01:20:00 +0530
 categories: [Technology, AI]
 tags: [AI, Token-Optimization, Context-Engineering, Headroom, Claude-Mem, Claude-Code, Memory]

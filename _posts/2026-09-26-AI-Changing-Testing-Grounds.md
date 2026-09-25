@@ -1,7 +1,7 @@
 ---
 
 title: How AI Is Changing Software Testing and VAPT
-author: Nirmal Chakraborty
+author: nirmal
 date: 2026-09-26 02:25:00 +0530
 categories: [Security, VAPT, AI]
 tags: [AI, Software-Testing, VAPT, Automation, Agentic-AI, Quality-Engineering]

@@ -189,3 +189,10 @@
 :root[data-palette='quantum'][data-bs-theme='dark'] .hero { box-shadow: 0 0 0 1px rgba(124,92,255,.12), 0 10px 40px rgba(80,200,120,.06); }
 :root[data-palette='obsidian'][data-bs-theme='dark'] .hero { box-shadow: 0 10px 40px rgba(64,224,208,.06); }
 :root[data-palette][data-bs-theme='dark'] .btn-hero.primary { color: #06100c !important; }
+
+/* tag chips on home post cards */
+#post-list .card-tags { display: flex; flex-wrap: wrap; gap: .3rem; }
+#post-list .card-tags span {
+  font-size: .72rem; padding: .05rem .45rem; border-radius: 4px;
+  background: var(--accent-soft); color: var(--accent); font-family: ui-monospace, monospace;
+}
