@@ -283,4 +283,3 @@ The goal is the architecture that provides the **required capability at an appro
   [https://docs.anthropic.com/en/docs/about-claude/model-deprecations](https://docs.anthropic.com/en/docs/about-claude/model-deprecations)
 
 ```
-```
