@@ -16,7 +16,7 @@ timezone: Asia/Kolkata
 
 title: Sneakywarwolf # the main title
 
-tagline: Security Researcher # it will display as the subtitle
+tagline: "Every expert was once a beginner" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Offensive security write-ups, VAPT notes and web/API/mobile security research by Nirmal Chakraborty.
