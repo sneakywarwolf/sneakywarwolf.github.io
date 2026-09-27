@@ -10,23 +10,28 @@ Security analyst focused on offensive security: web, API, mobile and network pen
 
 ## Certifications
 
-- DIAT — Information Assurance Professional
-- INE — eWPTXv2 (Web Application Penetration Tester eXtreme)
-- ISC2 — Certified in Cybersecurity (CC)
+- DIAT - Information Assurance Professional
+- CEH(Practical) - EC Council
+- INE - eWPTXv2 (Web Application Penetration Tester eXtreme)
+- ISC2 - Certified in Cybersecurity (CC)
+- CRTE - Altered Security
 
 ## Expertise
 
+- Team Handling and Management
 - Web application and API security testing
 - Network vulnerability assessment and penetration testing
 - Mobile application penetration testing
+- Designing and implementing security controls
+- Remediation guidance for development teams during audits
 - On-site VAPT engagements
 
 ## Project Work
 
-- Penetration tests to identify and validate vulnerabilities
-- Security assessments and audits
-- Designing and implementing security controls
-- Remediation guidance for development teams during audits
+- PMIS - RBAC Project Management System
+- ReconCraft - Modular reconnaissance and vulnerability-scanning framework
+- SFAC - Subdomain Finder & Accessibility Checker
+- PinSlayer - Universal SSL Pinning Bypass Frida Scripts for Android
 
 ## Contact
 
